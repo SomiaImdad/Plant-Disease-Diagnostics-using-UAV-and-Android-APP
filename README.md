@@ -18,4 +18,5 @@ Somia Imdad (14-CS-50) https://github.com/SomiaImdad (14-CS-50@uettaxila.edu.pk)
 Muhammad Usama bin Islam (14-CS-66) https://github.com/UsamaIslam (14-CS-66@uettaxila.edu.pk)
 Abdul Haseeb (14-CS-03) https://github.com/Rad1C4L (14-CS-03@students.uettaxila.edu.pk)
 
+Biggest Achievement is streaming live video using DJI drone to PC for disease detection. 
 Code will be uploaded soon.
