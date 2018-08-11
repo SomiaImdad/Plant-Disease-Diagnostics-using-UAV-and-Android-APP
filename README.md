@@ -13,9 +13,9 @@ MedCrafter AGRI-DRONE has following features:
 Since this project is android based also, so users can access this tool from multiple android devices to recognize different image targets. This application just requires input images captured by various camera devices with different resolutions, such as cell phone and other digital cameras. The goal of this project is to develop a market-oriented product for Plant Disease Diagnosis, a smartphone app compatible with both smartphone camera and drone camera. Moreover, it can efficiently deal with different size of objects, different illumination conditions and background variations contained in the surrounding areas of diseased plant. This is not much time consuming as compared to older ways of plant disease detection techniques. The idea is productive and as well as innovative. Application like this is never created in the history of UET Taxila.  
 The MedCrafter AGRI-DRONE provides a practical and real time market-oriented product that can be used in different fields without employing any complex and expensive technology. It also considers the possibility that a plant can be simultaneously affected by more than one disease in the same plant.  
 
-Group Members:
-Somia Imdad (14-CS-50) https://github.com/SomiaImdad
-Muhammad Usama bin Islam (14-CS-66) https://github.com/UsamaIslam 
-Abdul Haseeb (14-CS-03) https://github.com/Rad1C4L
+Group Members: 
+Somia Imdad (14-CS-50) https://github.com/SomiaImdad (14-CS-50@uettaxila.edu.pk)
+Muhammad Usama bin Islam (14-CS-66) https://github.com/UsamaIslam (14-CS-66@uettaxila.edu.pk)
+Abdul Haseeb (14-CS-03) https://github.com/Rad1C4L (14-CS-03@students.uettaxila.edu.pk)
 
 Code will be uploaded soon.
