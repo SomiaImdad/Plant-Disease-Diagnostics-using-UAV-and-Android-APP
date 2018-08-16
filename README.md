@@ -20,3 +20,24 @@ Abdul Haseeb (14-CS-03) https://github.com/Rad1C4L (14-CS-03@students.uettaxila.
 
 Biggest Achievement is streaming live video using DJI drone to PC for disease detection. 
 Code will be uploaded soon.
+
+Working (Got help from DJI documentation):
+On Live feed
+For live feed video same process is followed. The only obstacle is to livestream the video 
+from the drone to the mobile phone. Which is achieved by following these steps
+1. First, we initialize and set the instance as NativeDataListener to receive the frame 
+data.
+2. Then we send the data from camera to the ffmpeg library for parsing of individual 
+frames.
+3. Then we get the parsed data from ffmpeg and cache the data to a frameQueue
+4. Now we initialize MediaCodec as decoder and then check whether there is any i-
+frame in the MediaCodec. If not, then we get the default i-frame from the SDK 
+resources and insert it at the head of the frame queue. Then dequeue the framed data 
+from frameQueue and then feed it into the MediaCodec.
+5. Get the output byte buffer from MediaCodec, if a surface is available for viewing the 
+video and is configured by the MediaCodec, the output byte buffer only needs to be 
+released. If not, the output YUV data should invoke the callback and pass it out to 
+external listener, it should also be released.
+6. Release the ffmpeg and the Media Codec, Stop the decoding thread.
+The YUV data is then compressed into JPEG image and streamed to server in form of 
+MJPEG (motion JPEG)
